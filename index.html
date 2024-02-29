@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>YAY! It's BOGO</h1>
+    </header>
+    <main>
+        <section class="product">
+            <div class="standard">
+            <h2> <input type="radio" name="product_selection" id="product_1"><span class="unit">1 Unit</span> <span class="discount">10% off</span><p>Standard Price</p>
+            </h2>
+        </div>
+        <div class="price-details">
+            <label for="product_1">
+                <p>$10.00 USD</p>
+            </label>
+        </div>
+            
+        </section>
+        <section class="product most-popular">
+            <div class="standard">
+                <input type="radio" name="product_selection" id="product_2">
+                <h2><span class="unit">2 Unit</span> <span class="discount">20% Off</span></h2>
+            </div>
+            <div class="price-details">
+                <label for="product_2">
+                    <p>$18.00 USD</p>
+                    <p><s>$24.00-0.50</s></p>
+                </label>
+            </div>
+        </section>
+        <section class="product">
+            <div class="standard">
+                <input type="radio" name="product_selection" id="product_3">
+                <h2><span class="unit">3 Unit</span> <span class="discount">30% OFF</span></h2>
+            </div>
+            <div class="price-details"><label for="product_3">
+                <p>$24.00 USD</p>
+            </label></div>
+        </section>
+        
+    </main>
+    <aside>
+       <div class="flex-container">
+            <p class="delivery">Free Delivery</p>
+            <p class="total">Total: $18.00 USD</p>
+       </div>
+        <button>Add to Cart</button>
+    </aside>
+    <footer>
+        <p>@Powered by Pumper</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
